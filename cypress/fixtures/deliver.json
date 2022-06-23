@@ -1,0 +1,50 @@
+{
+    "signup_deliver": {
+        "name": "Lionel Messi",
+        "cpf": "00011122233",
+        "email": "teste@teste.com",
+        "whatsapp": "54999887766",
+        "address": {
+            "postalcode": "99010001",
+            "street": "Avenida Brasil",
+            "number": "500",
+            "details": "apto. 50",
+            "district": "Centro",
+            "city_state": "Passo Fundo/RS"
+        },
+        "delivery_method": "Moto",
+        "cnh": "cnh-digital.jpg"
+    },
+    "cpf_inv": {
+        "name": "Cristiano Ronaldo",
+        "cpf": "00011122ABC",
+        "email": "teste1@oi.com",
+        "whatsapp": "54988552211",
+        "address": {
+            "postalcode": "99010001",
+            "street": "Avenida Brasil",
+            "number": "600",
+            "details": "apto. 60",
+            "district": "Centro",
+            "city_state": "Passo Fundo/RS"
+        },
+        "delivery_method": "Moto",
+        "cnh": "cnh-digital.jpg"
+    },
+    "email_inv": {
+        "name": "Neymar JR.",
+        "cpf": "00011178944",
+        "email": "neymar.com",
+        "whatsapp": "54985858585",
+        "address": {
+            "postalcode": "99010001",
+            "street": "Avenida Brasil",
+            "number": "700",
+            "details": "apto. 70",
+            "district": "Centro",
+            "city_state": "Passo Fundo/RS"
+        },
+        "delivery_method": "Moto",
+        "cnh": "cnh-digital.jpg"
+    }
+}

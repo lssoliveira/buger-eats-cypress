@@ -1,0 +1,15 @@
+before(function(){
+    cy.log('all here is executed one time BEFORE ALL cases of tests')
+})
+
+beforeEach(function(){
+    cy.log('all here is executed one time BEFORE EACH case of test')
+})
+
+afterEach(function(){
+    cy.log('all here is executed one time AFTER EACH case of test')
+})
+
+after(function(){
+    cy.log('all here is executed one time AFTER ALL cases of tests')
+})

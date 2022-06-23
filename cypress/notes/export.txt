@@ -1,0 +1,3 @@
+export default new SignupPage; 
+
+// add the 'new' for exporting instantiated and not to be need create a new variable 'var signup = new SignupPage()' for example

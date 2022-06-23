@@ -1,0 +1,12 @@
+code: { 
+    beforeEach(function () {
+        cy.fixture('deliver').then((d) => {
+            this.deliver = d
+        })
+    }
+})
+
+// cy.fixture('deliver') -> get test data from archive 'deliver.json'.
+// then -> get of result from 'promise'.
+// (d) -> back result of the 'promise'. (d) is abbreviation of deliver, no more.
+// this.deliver = d -> 'this' create a variable of contexte. deliver will be the variable of context and go save the content in 'd'.
